@@ -39,7 +39,7 @@ class PerroFactory extends Factory
             'age' => $this->faker->numberBetween(1, 20),
             'description' => $this->faker->text(150),
             'photo' => $this->faker->imageUrl(),
-            // 'idUser' => $this->faker->numberBetween(1, 10),
+            'idUser' => $this->faker->numberBetween(1, 10),
         ];
     }
 }

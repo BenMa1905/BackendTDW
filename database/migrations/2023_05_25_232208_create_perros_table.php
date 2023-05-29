@@ -22,6 +22,7 @@ return new class extends Migration
             $table->integer('age')->nullable(false);
             $table->string('description', 150)->nullable(false);
             $table->string('photo', 100)->nullable(false);
+            $table->integer('idUser')->nullable(false);
         });
     }
 
