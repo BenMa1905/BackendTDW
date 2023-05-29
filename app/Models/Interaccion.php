@@ -8,6 +8,8 @@ use Illuminate\Database\Eloquent\Model;
 class Interaccion extends Model
 {
     use HasFactory;
+    public $table = "interacciones";
+    protected $primaryKey = 'id';
 
     /**
      * The attributes that are mass assignable.

@@ -3,6 +3,7 @@
 namespace Database\Seeders;
 use App\Models\User;
 use App\Models\Perro;
+use App\Models\Interaccion;
 
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
@@ -24,6 +25,9 @@ class DatabaseSeeder extends Seeder
         // ]);
 
         Perro::factory(10)->create();
+
+        Interaccion::factory(10)->create();
+        
 
     }
 }
