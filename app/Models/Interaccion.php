@@ -18,7 +18,7 @@ class Interaccion extends Model
      */
     protected $fillable = [
         'idInterested', // id del usuario que dio like
-        'idCandidate',  // id del usuario al que se le dio likeq
+        'idCandidate',  // id del usuario al que se le dio like
         'type', // A = Aceptado, R = Rechazado
     ];
 }
