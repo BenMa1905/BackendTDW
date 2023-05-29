@@ -24,10 +24,28 @@
 - Crear un perro:
   - Método: POST
   - Ruta: `{URL}/api/perros`
+  - JSON: `{
+  "name": {text},
+  "breed": {text},
+  "sex": {Male,Female},
+  "age": {int},
+  "description": {text},
+  "photo": {text},
+  "idUser": {int}
+}`
 
 - Actualizar un perro:
   - Método: PUT
   - Ruta: `{URL}/api/perros/{id}`
+  - JSON: `{
+  "name": {text},
+  "breed": {text},
+  "sex": {Male,Female},
+  "age": {int},
+  "description": {text},
+  "photo": {text},
+  "idUser": {int}
+}`
 
 - Borrar un perro:
   - Método: DELETE
@@ -46,10 +64,16 @@
 - Crear una interacción:
   - Método: POST
   - Ruta: `{URL}/api/interacciones/{id1}/{id2}`
+  - JSON:`{
+  "type": {"A","R"}
+}`
 
 - Actualizar una interacción entre dos IDs:
   - Método: PUT
   - Ruta: `{URL}/api/interacciones/{id1}/{id2}`
+  - JSON:`{
+  "type": {"A","R"}
+}`
 
 - Eliminar una interacción entre dos IDs:
   - Método: DELETE
