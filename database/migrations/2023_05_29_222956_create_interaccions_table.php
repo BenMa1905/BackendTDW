@@ -13,7 +13,7 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('interaccions', function (Blueprint $table) {
+        Schema::create('interacciones', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
             $table->integer('idInterested');
@@ -29,6 +29,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('interaccions');
+        Schema::dropIfExists('interacciones');
     }
 };
