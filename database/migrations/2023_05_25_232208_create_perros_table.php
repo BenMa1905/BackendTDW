@@ -18,7 +18,8 @@ return new class extends Migration
             $table->timestamps();
             $table->string('name', 50)->nullable(false);
             $table->string('breed', 50)->nullable(false);
-            $table->integer('age', 50)->nullable(false);
+            $table->string('sex', 50)->nullable(false); // (Macho, Hembra')
+            $table->integer('age')->nullable(false);
             $table->string('description', 150)->nullable(false);
             $table->string('photo', 100)->nullable(false);
         });

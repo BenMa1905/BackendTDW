@@ -37,7 +37,7 @@ class PerroFactory extends Factory
             ]),
             'sex' => $this->faker->randomElement(['Macho', 'Hembra']),
             'age' => $this->faker->numberBetween(1, 20),
-            'description' => $this->faker->text(),
+            'description' => $this->faker->text(150),
             'photo' => $this->faker->imageUrl(),
             // 'idUser' => $this->faker->numberBetween(1, 10),
         ];
