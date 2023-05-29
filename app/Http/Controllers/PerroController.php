@@ -38,7 +38,7 @@ class PerroController extends Controller
                 'age' => 'required|integer',
                 'description' => 'required',
                 'photo' => 'required',
-                'idUser' => 'integer',
+                'idUser' => 'nullable|integer',
             ]);
 
             $perro = Perro::create($request->all());
@@ -59,7 +59,7 @@ class PerroController extends Controller
                 'age' => 'required|integer',
                 'description' => 'required',
                 'photo' => 'required',
-                'idUser' => 'integer',
+                'idUser' => 'nullable|integer',
             ]);
 
             $perro = Perro::findOrFail($id);
