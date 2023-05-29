@@ -3,7 +3,7 @@
 2. Entrar a la carpeta del proyecto `cd BackendTDW`
 3. Instalar dependencias `composer install`
 4. Copiar el .env.example usando `cp .env.example .env`
-5. Modificar usuario y contraseña del .env, en la linea 15 y 16 `DB_USERNAME, DB_PASSWORD`
+5. Modificar usuario y contraseña del .env, en la línea 15 y 16 `DB_USERNAME, DB_PASSWORD`
 6. Ejecutar `php artisan migrate`
 7. Ejecutar `php artisan db:seed`
 8. Inicializar el proyecto `php artisan serve`
@@ -56,5 +56,5 @@
   - Ruta: `{URL}/api/interacciones/{id1}/{id2}`
 
 Autores:
-- **Alex Tardón Bernales**
-- **Benjamín Machuca Villaseñor**
+- <span style="color:orange">**Alex Tardón Bernales**</span>
+- <span style="color:blue">**Benjamín Machuca Villaseñor**</span>
